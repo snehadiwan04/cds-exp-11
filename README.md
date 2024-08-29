@@ -69,21 +69,19 @@ Access specifiers determine the visibility and accessibility of class members (a
 //23070123126
 //entc-B2
 //experiment-11
-#include<iostream>
+# include<iostream>
 using namespace std;
-class cube
-{
-   public:
-   double height=2.0;
-   double width=3.0;
-   double length=4.0;
-};
+class cube{
+    public:
+    double height = 4.0;
+    double length = 5.0;
+    double width = 9.0;
 
-int main()
-{
+};
+int main(){
     cube c1;
-    double vol=c1.height*c1.width*c1.length;
-    cout<<"volume:"<<vol<<endl;
+    double volume=c1.height*c1.width*c1.length;
+    cout<<"volume is: "<<volume<<endl;
 }
 ```
 ### 2.
